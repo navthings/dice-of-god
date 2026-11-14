@@ -3895,6 +3895,16 @@
 		)
 		(uuid "7ef5a347-e24d-43ad-a153-3b643078e977")
 	)
+	(label "HV"
+		(at 251.46 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98825703-ccc8-433a-af42-729317814e38")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 93.98 138.43 90)
