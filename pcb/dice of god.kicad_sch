@@ -6597,7 +6597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Radial_D10.0mm_P5.00mm_Fastron_07M"
+		(property "Footprint" "Inductor_THT:L_Radial_D12.5mm_P7.00mm_Fastron_09HCP"
 			(at 228.6 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11029,7 +11029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "IPA60R1K0CE"
 			(at 232.41 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
