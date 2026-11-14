@@ -515,6 +515,24 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 2.0,
+        "name": "HV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -522,7 +540,48 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/HV"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "Net-(D8-A)"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "Net-(J4-Pin_1)"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "Net-(R14-Pad2)"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "Net-(D10-K)"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "Net-(D10-A)"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "Net-(D11-A)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
